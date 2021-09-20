@@ -19,11 +19,10 @@ public class Executor
 
     private static void execute()
     {
-        boolean execute = true;
-        while (execute) {
+        while (true) {
         System.out.println("Please enter the operation: ");
         String operation = scanner.nextLine();
-        if (operation.equalsIgnoreCase(OperationType.EXIT.getOpeartionString())) execute = false;
+        if (operation.equalsIgnoreCase(OperationType.EXIT.getOpeartionString())) break;
         else if (operation.equalsIgnoreCase(OperationType.ADD.getOpeartionString())) {
             System.out.println("Enter operands as a list (e.g. 1,2,3,4)");
             String operands = scanner.nextLine();
