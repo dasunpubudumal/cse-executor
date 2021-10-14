@@ -38,6 +38,26 @@ public class Executor
                 double[] operandArray = StringUtil.operandArray(operands);
                 System.out.printf("Multiplication: %f%n", Arrays.stream(operandArray).reduce(1, (a,b) -> a*b));
             }
+            else if (operation.equalsIgnoreCase(OperationType.DIV.getOpeartionString()))
+            {
+                // use MathOperation class within library project to implement this case
+                System.err.println("DIV Functionality is not implemented yet.");
+            }
+            else if (operation.equalsIgnoreCase(OperationType.SQRT.getOpeartionString()))
+            {
+                // use MathOperation class within library project to implement this case
+                System.err.println("SQRT Functionality is not implemented yet.");
+            }
+            else if (operation.equalsIgnoreCase(OperationType.CUBE.getOpeartionString()))
+            {
+                // use MathOperation class within library project to implement this case
+                System.err.println("CUBE Functionality is not implemented yet.");
+            }
+            else if (operation.equalsIgnoreCase(OperationType.ABS.getOpeartionString()))
+            {
+                // use MathOperation class within library project to implement this case
+                System.err.println("ABS Functionality is not implemented yet.");
+            }
             else if (operation.equalsIgnoreCase(OperationType.SUM_OF_INTEGERS.getOpeartionString()))
             {
                 // use MathOperation class within library project to implement this case

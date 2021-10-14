@@ -4,6 +4,10 @@ public enum OperationType {
 
     ADD("ADD"),
     MULT("MULTIPLY"),
+    DIV("DIV"),
+    SQRT("SQRT"),
+    CUBE("CUBE"),
+    ABS("ABS"),
     SUM_OF_INTEGERS("SUM_OF_INTEGERS"),
     FIBONACCI("FIBONACCI"),
     FACTORIAL("FACTORIAL"),
