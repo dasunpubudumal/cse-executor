@@ -1,4 +1,4 @@
-package it.uom.cse;
+package it.sliit;
 
 public enum OperationType {
 

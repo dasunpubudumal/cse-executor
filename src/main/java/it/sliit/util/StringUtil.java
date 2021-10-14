@@ -1,4 +1,4 @@
-package it.uom.cse.util;
+package it.sliit.util;
 
 import java.util.Arrays;
 
